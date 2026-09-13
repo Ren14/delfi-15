@@ -62,7 +62,7 @@ export default function Gallery() {
     >
       <SectionTitle>Galería</SectionTitle>
       <p className="text-violet-600 text-sm mb-10">
-        Algunos momentos especiales de Bianca ✨
+        Algunos momentos especiales de Delfi ✨
       </p>
 
       <div
