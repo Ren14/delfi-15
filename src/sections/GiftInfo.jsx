@@ -17,7 +17,7 @@ export default function GiftInfo() {
   const timeoutRef = useRef(null)
 
   const copyAlias = () => {
-    const text = 'biancanacif23'
+    const text = 'delfi.2511.mp'
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text).catch(() => fallbackCopy(text))
