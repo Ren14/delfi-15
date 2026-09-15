@@ -23,7 +23,7 @@ export default function RSVP() {
     if (!name.trim()) { alert('Por favor, ingresá tu nombre.'); return }
 
     const message = attend === 'si'
-      ? `Hola! Soy ${name.trim()}. Confirmo asistencia para ${guests} ${guests === '1' ? 'persona' : 'personas'} a los 15 de Delfi 🌸`
+      ? `Hola! Soy ${name.trim()}. Confirmo asistencia a los 15 de Delfi 🌸`
       : `Hola! Soy ${name.trim()}. Lamentablemente no voy a poder asistir 😢`
 
     window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`, '_blank')
@@ -67,20 +67,6 @@ export default function RSVP() {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-
-        {/* Guest count */}
-        <select
-          className={inputClass}
-          style={inputStyle}
-          value={guests}
-          onChange={(e) => setGuests(e.target.value)}
-        >
-          {[1, 2, 3, 4].map((n) => (
-            <option key={n} value={n}>
-              {n} {n === 1 ? 'persona' : 'personas'}
-            </option>
-          ))}
-        </select>
 
         {/* Yes / No toggle */}
         <div className="flex gap-3">

@@ -7,7 +7,7 @@ const GIFT_INFO = [
   { label: 'Banco',   value: 'Banco Galicia' },
   { label: 'CBU',     value: '0000000000000000000000' },
   { label: 'Alias',   value: 'delfi.2511.mp' },
-  { label: 'Titular', value: 'Bianca Nacif' },
+  { label: 'Titular', value: 'Delfi' },
 ]
 // ───────────────────────────────────────────────────
 
