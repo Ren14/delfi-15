@@ -54,7 +54,7 @@ export default function RSVP() {
     >
       <SectionTitle>¿Vas a venir?</SectionTitle>
       <p className="text-violet-600 text-sm mb-10">
-        Confirmá tu asistencia antes del 20 de Septiembre
+        Confirmá tu asistencia antes del 25 de Septiembre
       </p>
 
       <div className="max-w-sm mx-auto flex flex-col gap-4">
